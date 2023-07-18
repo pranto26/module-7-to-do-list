@@ -1,0 +1,22 @@
+.card {
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  .card:hover {
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.04);
+  }
+  .selected {
+    background: #0e0e0e;
+    color: #ffffff;
+  }
+  .info-block {
+    border: 1px solid #c1c1c1;
+    border-radius: 5px;
+    padding: 10px 8px;
+    margin-bottom: 5px;
+    text-align: justify;
+  }
+  .todo-label {
+    font-weight: bold;
+  }
